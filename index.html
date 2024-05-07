@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="public/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Exo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bar Chart | Raj Kapadia</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="public/logo.png" alt="logo" class="logo" />
+      </div>
+    </header>
+    <main>
+      <div id="chart">
+        <h1 id="title">U.S. GDP data:</h1>
+        <svg id="svg-container"></svg>
+        <div id="tooltip"></div>
+      </div>
+    </main>
+    <section>
+      <footer>
+        <p>
+          Bar Chart Visualization Made by
+          <a target="_blank" href="https://github.com/rkgith01">Raj Kapadia</a>
+        </p>
+      </footer>
+    </section>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
