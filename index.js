@@ -88,8 +88,5 @@ fetch(api)
         d3.select(this).style("fill", "steelblue"); 
         d3.select("#tooltip").style("display", "none");
       });
-    // .on("click", function () {
-    //   d3.selectAll(".bar").style("fill", "steelblue"); // Reset all bars to default color
-    //   d3.select(this).style("fill", "red"); // Change fill color on click
-    // });
+
   });
